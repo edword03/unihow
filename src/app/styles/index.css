@@ -1,0 +1,56 @@
+:root {
+  --font-color-default: #202020;
+  --font-size-default: 14px;
+  --font-weight-default: 400;
+
+  --font-weight-medium: 500;
+
+  --blue-color: #3369F3
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--font-color-default);
+  font-weight: var(--font-weight-default);
+  font-family: Roboto, sans-serif;
+
+  background-color: #EDEEF0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+button {
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.container {
+  margin: 10px auto;
+  max-width: 80%;
+  width: 100%;
+  padding: 0 10px 0 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 10px
+  }
+}

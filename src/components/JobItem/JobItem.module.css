@@ -1,0 +1,74 @@
+.jobCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 6px -6px #131313;
+  background-color: #fff;
+}
+
+.jobCard:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.titleBlock {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.cardTitle {
+  /*display: flex;*/
+  align-items: center;
+}
+
+
+.unTag {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.companyTitle {
+  font-size: 1.1rem;
+}
+
+.companyTitle:first-letter {
+  text-transform: uppercase;
+}
+
+.locationBlock {
+  display: flex;
+  margin: 10px 0 10px;
+}
+
+.locationTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.jobCategories {
+  display: flex;
+  margin: 10px 0 10px;
+}
+
+.jobCategoriesItem:not(:first-child) {
+  margin-left: 5px;
+}
+
+.dateBlock {
+  display: inline-flex;
+  align-items: center;
+}
+
+.utilDate {
+  display: block;
+  font-size: 1rem;
+  margin-left: 15px;
+  font-weight: 500;
+  align-self: center;
+  line-height: normal;
+}
